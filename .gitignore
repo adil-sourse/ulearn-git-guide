@@ -48,6 +48,9 @@ Icon[]
 # Основные правила для VS Code с возможностью пошарить часть настроек с командой
 .vscode/*
 !.vscode/settings.json
+
+# Секреты не должны попадать в репозиторий
+secrets.txt
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
